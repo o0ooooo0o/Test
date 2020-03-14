@@ -3,7 +3,7 @@
 //GGGGGGGGGGGGGGGGGGGGIT TEST3333
 
 //GIT TEST3333666
-
+//change File on github
 import java.io.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
@@ -20,7 +20,7 @@ public class Hello extends HttpServlet {
     out.println("<HTML>");
     out.println("<HEAD><TITLE>Hello, " + name + "</TITLE></HEAD>");
     out.println("<BODY>");
-    out.println("Hello, §A¦n: " + name);
+    out.println("Hello, Â§AÂ¦n: " + name);
     
     out.println("<br><img src=\""+req.getContextPath()+"/images/tomcat.gif\">");
     out.println("<br><img src=\""+     "/IBM_9"       +"/images/tomcat.gif\">");
